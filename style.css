@@ -1,0 +1,49 @@
+.header {
+    background-color: #1f2937;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header .secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header ul a {
+    color: #E5E7EB;
+}
+
+.header img {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+}
+
+.content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.contact {
+    background-color: #3882f6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-family: light italic;
+    color: #1f2937;
+}
+
+.footer {
+    background-color: #1f2937;
+}
