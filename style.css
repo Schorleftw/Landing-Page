@@ -1,15 +1,13 @@
 /** {
     border: 2px solid red;
-  }*/
+}*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
-    margin: 0px;
-    padding: 0px;
-    min-height: 200vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-family: "roboto", sans-serif;
 }
 
@@ -17,9 +15,7 @@ body {
 /* colors and fonts */
 .header {
     background-color: #1f2937;
-    width: 100%;
-    flex: auto;
-
+    padding: 1em 15em;
 }
 
 .header .top ul a {
@@ -51,17 +47,15 @@ button {
 
 .header .top {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    padding: 1em 1em;
 }
 
 .header ul {
     display: flex;
-    flex-direction: row;
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    gap: 10px;
+    gap: 15px;
 }
 
 .header .top a {
@@ -71,30 +65,36 @@ button {
 
 .header .bottom {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: auto;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    padding: 7em 4em;
+    gap: 50px;
 }
 
 .header .bottom .left{
     display: flex;
     flex-direction: column;
-    width: 500px;
-    align-items: flex-start;
-}
-
-.header .bottom .left h1, p {
-    margin: 0px;
+    gap: 10px;
 }
 
 .header .bottom .right {
     background: gray;
-    width: 350px;
+    display: flex;
+    width: 50%;
     height: 150px;
+    flex-shrink: 0;
     border-radius: 25px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.header button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    width: 120px;
+    border: none;
+    padding: 7px 1em;
+    border-radius: 8px;
 }
 
 /* content */
